@@ -6,7 +6,13 @@ Hermes Writer is text generation and writing software created to help users crea
 ```
 $ pip install openai
 $ pip install PIL
-pip install python-dotenv
+$ pip install python-dotenv
+
+```
+
+### Or install with requirements.txt
+```
+ $ pip install -r requirements.txt
 ```
 
 ### Config API KEY in .env
