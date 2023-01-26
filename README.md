@@ -1,12 +1,12 @@
 # Hermes Writer 0.0.1 - Your friendly tool software writer of text for papers
 
-
 Hermes Writer is text generation and writing software created to help users create quality content. The software offers a variety of tools to help users create quality content, including editing features, spell check, keyword suggestions, search features and more. The software also offers collaboration features, allowing users to work together to create quality content. In addition, the software offers publishing features, allowing users to publish their content on various platforms including blogs, websites and social networks. Hermes Writer is a powerful tool to help users create quality content and publish it efficiently.
 
 ### Install dependencies
 ```
 $ pip install openai
 $ pip install PIL
+pip install python-dotenv
 ```
 
 ### Config API KEY in .env
