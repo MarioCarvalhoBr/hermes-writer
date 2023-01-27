@@ -5,6 +5,7 @@ __pycache__/
 
 # Environments
 .env
+text.txt
 
 # Dirs and files personal to your project
 images/

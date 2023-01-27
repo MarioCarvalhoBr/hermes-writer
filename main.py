@@ -110,8 +110,9 @@ while True:
         # Print size of response
         print("\nResponse:\n" + response)
         print("\nNumber of characters: " + str(len(response)))
+        print("\nNumber of words: " + str(len(response.split(" "))))
         print("\n")
 
-        # Add prompt and response in questions.txt
+        # Add prompt and response in chat_logs.txt
         with open(PATH_FILE_CHAT_LOGS, "a") as f:
-            f.write("\n\nQuestion: " + prompt + "\nResponse: " + response + "")
+            f.write("\n\n-->Question: " + prompt + "\n-->Response: " + response + "")
