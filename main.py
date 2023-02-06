@@ -55,6 +55,7 @@ while True:
     4 - Enter a question: 
     5 - Exit 
     6 - Generate a new image:
+    7 - Remove redundancy from this text:
     '''
     print("Menu Hermes 0.0.1")
     print("1 - Rewrite this text with others words: ")
@@ -63,6 +64,7 @@ while True:
     print("4 - Enter a question: ")
     print("5 - Exit ")
     print("6 - Generate a new image:")
+    print("7 - Remove redundancy from this text:")
 
     # Input option
     option = input("Enter a option: ")
@@ -76,7 +78,7 @@ while True:
         response = openai.Image.create(
             prompt=prompt,
             n=1,
-            size="1024x1024"
+            size="1024x1024",
         )
         image_url = response['data'][0]['url']
         response = requests.get(image_url)
@@ -99,6 +101,8 @@ while True:
         elif option == "5":
             print("\nExiting Hermes... Bye bye.\n")
             break
+        elif option == "7":
+            text_option = "Remove redundancy from this text: "
         else:
             print("Enter a question: ")
         prompt = input(text_option)

@@ -32,3 +32,4 @@ $ python main.py
     4 - Enter a question: 
     5 - Exit 
     6 - Generate a new image:
+    7 - Remove redundancy from this text:
