@@ -21,7 +21,7 @@ openai.api_key = API_KEY
 PATH_FILE_CHAT_LOGS = "chat_logs.txt"
 PATH_DIR_IMAGES = "images/"
 
-# Verify dir images
+# - Verify dir images
 if not os.path.exists(PATH_DIR_IMAGES): # If not exists dir images
     os.makedirs(PATH_DIR_IMAGES) #  Create dir images
 
