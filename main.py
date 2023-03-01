@@ -56,6 +56,7 @@ while True:
     5 - Exit 
     6 - Generate a new image:
     7 - Remove redundancy from this text:
+    8 - Rewrite this phrase in active voice:
     '''
     print("Menu Hermes 0.0.1")
     print("1 - Rewrite this text with others words: ")
@@ -65,6 +66,7 @@ while True:
     print("5 - Exit ")
     print("6 - Generate a new image:")
     print("7 - Remove redundancy from this text:")
+    print("8 - Rewrite this phrase in active voice:")
 
     # Input option
     option = input("Enter a option: ")
@@ -103,6 +105,8 @@ while True:
             break
         elif option == "7":
             text_option = "Remove redundancy from this text: "
+        elif option == "8":
+            text_option = "Rewrite this phrase in active voice: "
         else:
             print("Enter a question: ")
         prompt = input(text_option)
